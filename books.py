@@ -2,7 +2,7 @@ import json
 
 def show_books(books):
     for i in books:
-        print(books["name"], "- priority: ", books["priority"])
+        print("Book name: ", books["name"], "- priority: ", books["priority"])
         
 def save_books(books):
     with open("books.json", "w", encoding="utf-8") as file:
