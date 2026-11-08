@@ -11,6 +11,13 @@ A simple Personal Book Manager made with Python.
 - Loads Saved Books
 - Active Admin Mode
 
+## Priority
+Each book can have one of the following priority levels:
+- Low
+- Medium
+- High
+
+
 ## Project Structure
 | File | Description |
 |------|-------------|
